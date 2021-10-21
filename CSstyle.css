@@ -12,6 +12,14 @@ p1 {
     color: white;
 }
 
+.dropdown-customised {
+    text-align: center;
+}
+
+.videoSet {
+    text-align: center;
+}
+
 #listA {
     color: royalblue;
     font-size: large;

@@ -24,6 +24,17 @@
 
     <p1>Welcome to ClimateStats. We present publicly available data on the quantity and sources of carbon dioxide emissions across the world.</p1>
 
+    <div class="dropdown dropdown-customised">
+        <button class="btn btn-secondary btn-toggle" type="button" id="videosDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Relevant videos
+        </button>
+        <div class="dropdown-menu" aria-labelledby="videosDropdown">
+            <a class="dropdown-item" href="#naturalGasVideo">Natural gas</a>
+            <a class="dropdown-item" href="#">Oil</a>
+            <a class="dropdown-item" href="#">Coal</a>
+        </div>
+    </div>
+
     <h2>10 Countries by emissions (billion tons of CO2)</h2>
     <div id="credit">
         <p2>Source - Fossil CO2 emissions of all world countries 2018, Marilena Muntean et al., EU publications office, </p2>
@@ -63,6 +74,10 @@
             <li>Direct Industrial Process (5.2)</li>
             <li>Waste (3.2)</li>
         </ol>
+    </div>
+
+    <div class="videoSet">
+        <iframe id="naturalGasVideo" width="800" height="550" src="https://www.youtube.com/embed/-njmj0diWu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <!--Bootstrap javascript-->

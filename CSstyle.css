@@ -3,25 +3,28 @@ body {
     font-family: 'Monaco', monospace;
 }
 
-h1 {
-    background-color: rgb(47, 14, 110);
-    color: white;
-    width: 300px;
-}
-
 p1 {
     font-size: 18px;
+}
+
+.bg-custom {
+    background-color: rgb(38, 36, 48);
+    color: white;
 }
 
 .listA {
     color: royalblue;
     font-size: large;
+    text-align: center;
+    list-style-position: inside;
 }
 
 h2 {
     color: royalblue;
+    text-align: center;
 }
 
 #credit {
     font-size: 13px;
+    text-align: center;
 }

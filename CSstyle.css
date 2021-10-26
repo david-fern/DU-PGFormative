@@ -49,3 +49,10 @@ h2 {
     font-size: 13px;
     text-align: center;
 }
+
+.imgWrap {
+    float: left;
+    height: 250px;
+    width: 250px;
+    padding-right: 20px;
+}

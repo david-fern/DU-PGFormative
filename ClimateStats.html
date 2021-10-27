@@ -38,7 +38,7 @@
             <h1 class="display-4">ClimateStats</h1>
             <p class="lead text-white">Presenting publicly available data and resources about climate change.</p>
             <p>
-                <a href="#" class="btn btn-primary my-2">Go to resources</a>
+                <a href="#findResource" class="btn btn-primary my-2">Go to resources</a>
             </p>
         </div>
     </section>
@@ -75,17 +75,6 @@
             </div>
         </div>
         <hr class="featurette-divider">
-
-        <div class="dropdown dropdown-customised">
-            <button class="btn btn-secondary btn-toggle" type="button" id="videosDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Relevant videos
-            </button>
-            <div class="dropdown-menu" aria-labelledby="videosDropdown">
-                <a class="dropdown-item" href="#naturalGasVideo">Natural gas</a>
-                <a class="dropdown-item" href="#">Oil</a>
-                <a class="dropdown-item" href="#">Coal</a>
-            </div>
-        </div>
 
         <div class="row featurette">
             <div class="col-lg">
@@ -133,7 +122,7 @@
 
         <div class="row featurette">
             <div class="col-lg">
-                <h1 class="featurette-heading">Find a resource</h1>
+                <h1 class="featurette-heading" id="findResource">Find a resource</h1>
                 <div class="input-group">
                     <div class="form-outline">
                         <input type="search" id="resourceSearch" class="form-control" placeholder="Search resources">
@@ -166,8 +155,19 @@
     <!---
     <div class="videoSet">
         <iframe id="naturalGasVideo" width="800" height="550" src="https://www.youtube.com/embed/-njmj0diWu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div> -->
-    
+    </div> 
+    <div class="dropdown dropdown-customised">
+            <button class="btn btn-secondary btn-toggle" type="button" id="videosDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Relevant videos
+            </button>
+            <div class="dropdown-menu" aria-labelledby="videosDropdown">
+                <a class="dropdown-item" href="#naturalGasVideo">Natural gas</a>
+                <a class="dropdown-item" href="#">Oil</a>
+                <a class="dropdown-item" href="#">Coal</a>
+            </div>
+        </div>
+    -->
+
     <script src="searchResources.js"></script>
     <!--Bootstrap javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

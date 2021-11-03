@@ -27,7 +27,7 @@ p1 {
 }
 
 #listA {
-    color: royalblue;
+    color: rgb(145, 34, 34);
     font-size: large;
     list-style-position: inside;
 }
